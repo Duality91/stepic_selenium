@@ -39,7 +39,7 @@ def test_reg2():
     email = browser.find_element(By.XPATH, "//input[contains(@placeholder, 'email')]")
     email.send_keys("test@test.ru")
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
-    button.click()
+   button.click()
 
     # находим элемент, содержащий текст
     welcome_text_elt = browser.find_element(By.TAG_NAME, "h1")
